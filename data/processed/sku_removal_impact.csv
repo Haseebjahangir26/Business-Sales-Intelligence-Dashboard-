@@ -1,0 +1,10 @@
+metric,value
+"Total Revenue  (with SKU-098, SKU-099)",91447093.63
+"Total Revenue  (without SKU-098, SKU-099)",89858038.68
+"Total Profit   (with SKU-098, SKU-099)",43055915.03
+"Total Profit   (without SKU-098, SKU-099)",42978685.55
+"Profit Margin% (with SKU-098, SKU-099)",47.08
+"Profit Margin% (without SKU-098, SKU-099)",47.83
+Margin Improvement (pp),0.75
+Bad-SKU Revenue Share (%),1.74
+Bad-SKU Profit  Share (%),0.18

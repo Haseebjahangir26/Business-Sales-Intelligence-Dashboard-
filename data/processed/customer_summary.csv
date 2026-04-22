@@ -1,0 +1,201 @@
+customer_name,total_revenue,total_profit,order_count,regions,profit_margin_pct,revenue_rank
+Unknown Customer,1782014.47,843380.24,212,Central/East/North/South/West,47.33,1
+Jones Inc,940771.14,461847.71,107,Central/East/North/South/West,49.09,2
+Johnson-Carlson,694935.91,339053.99,63,Central/East/North/South/West,48.79,3
+Hill Inc,692918.79,316263.38,56,Central/East/North/South/West,45.64,4
+"Hoffman, Baker and Richards",689416.75,324933.89,72,Central/East/North/South/West,47.13,5
+Chambers and Sons,680917.65,317744.75,61,Central/East/North/South/West,46.66,6
+"West, Henderson and Ramirez",656580.59,290770.88,55,Central/East/North/South/West,44.29,7
+"Williams, Johnson and Wright",656409.9,317010.86,56,Central/East/North/South/West,48.29,8
+"Watts, Robinson and Nguyen",647810.68,293703.32,69,Central/East/North/South/West,45.34,9
+"Martin, Rose and Obrien",644348.16,291866.09,51,Central/East/North/South/West,45.3,10
+Bryant Group,642518.6,304075.49,56,Central/East/North/South/West,47.33,11
+"Miller, Hernandez and Reyes",637486.3,300570.67,57,Central/East/North/South/West,47.15,12
+Smith-Bowen,636613.9,294198.84,51,Central/East/North/South/West,46.21,13
+Frazier Inc,633716.09,292417.64,51,Central/East/North/South/West,46.14,14
+Novak PLC,614634.99,283082.62,63,Central/East/North/South/West,46.06,15
+Carlson-Cruz,606615.12,286470.33,49,Central/East/North/South/West,47.22,16
+"Mcdaniel, Bentley and Mclaughlin",603820.36,278200.83,62,Central/East/North/South/West,46.07,17
+"Ferrell, Jones and Lewis",597869.68,281977.54,59,Central/East/North/South/West,47.16,18
+Baker and Sons,595758.66,288982.7,64,Central/East/North/South/West,48.51,19
+Hancock Inc,589675.25,275645.19,56,Central/East/North/South/West,46.75,20
+Johnson-Rogers,586687.67,262770.17,52,Central/East/North/South/West,44.79,21
+Gomez-Jenkins,585231.15,276493.2,49,Central/East/North/South/West,47.25,22
+Smith-Bell,578258.78,274414.24,56,Central/East/North/South/West,47.46,23
+Marshall-Petersen,576585.83,266445.3,61,Central/East/North/South/West,46.21,24
+Johnson-Doyle,575857.03,273183.46,62,Central/East/North/South/West,47.44,25
+Walker-Jones,571221.64,281863.05,56,Central/East/North/South/West,49.34,26
+Smith PLC,564179.53,261833.28,52,Central/East/North/South/West,46.41,27
+Christensen PLC,558817.39,262638.0,58,Central/East/North/South/West,47.0,28
+Ross LLC,557965.44,257747.19,50,Central/East/North/South/West,46.19,29
+"Rodriguez, Brennan and Garrison",556607.15,265805.59,56,Central/East/North/South/West,47.75,30
+"Parker, Ortiz and Powell",556408.77,243674.91,47,Central/East/North/South/West,43.79,31
+Lewis-Murphy,556294.95,263653.18,55,Central/East/North/South/West,47.39,32
+Anderson Group,551195.8,260119.74,61,Central/East/North/South/West,47.19,33
+Gray-Mayo,550318.66,258985.22,51,Central/East/North/South/West,47.06,34
+Davis and Sons,549097.78,259980.71000000002,63,Central/East/North/South/West,47.35,35
+White-Estes,548330.89,248388.15,63,Central/East/North/South/West,45.3,36
+Rasmussen LLC,546831.54,259093.16,58,Central/East/North/South/West,47.38,37
+Galloway-Wyatt,544576.84,264716.7,60,Central/East/North/South/West,48.61,38
+"Ramirez, Strickland and Washington",540617.86,260246.08000000002,55,Central/East/North/South/West,48.14,39
+"Wright, Garcia and Deleon",539755.32,246874.94,59,Central/East/North/South/West,45.74,40
+"Dyer, Potter and Mack",539464.73,258884.58,52,Central/East/North/South/West,47.99,41
+Doyle Ltd,535436.25,254780.94,50,Central/East/North/South/West,47.58,42
+"Sanchez, Wheeler and Harvey",535271.15,240228.68,53,Central/East/North/South/West,44.88,43
+Scott Ltd,534984.43,239070.14,53,Central/East/North/South/West,44.69,44
+Hernandez Ltd,532746.64,262833.54,45,Central/East/North/South/West,49.34,45
+Hancock and Sons,526538.18,271072.39,60,Central/East/North/South/West,51.48,46
+"Ross, Robinson and Bright",526303.87,252857.19,58,Central/East/North/South/West,48.04,47
+Castaneda-Ashley,522531.83,251267.18,47,Central/East/North/South/West,48.09,48
+Yu Inc,521140.11,249964.84,46,Central/East/North/South/West,47.96,49
+"Mitchell, Nelson and Flores",517641.47,235711.76,57,Central/East/North/South/West,45.54,50
+Ramirez Group,516869.09,248484.93,55,Central/East/North/South/West,48.08,51
+Spencer-Lee,516532.0,236150.15,51,Central/East/North/South/West,45.72,52
+Mccarthy Inc,516054.21,246911.57,46,Central/East/North/South/West,47.85,53
+"Robinson, Jones and Welch",512595.13,248996.32,68,Central/East/North/South/West,48.58,54
+Manning Group,507107.18,236295.8,60,Central/East/North/South/West,46.6,55
+"Harvey, Davis and Crane",505255.09,233089.94999999998,53,Central/East/North/South/West,46.13,56
+"Daniels, Adkins and Brown",503606.88,243292.06,49,Central/East/North/South/West,48.31,57
+Garcia-James,499890.17,230118.43,51,Central/East/North/South/West,46.03,58
+Dickson-Brady,498506.98,238161.27,58,Central/East/North/South/West,47.77,59
+"Higgins, Strickland and Martin",496051.39999999997,238356.1,47,Central/East/North/South/West,48.05,60
+White-Green,495957.3,231776.02000000002,53,Central/East/North/South/West,46.73,61
+Burton Ltd,494621.08,221607.77,52,Central/East/North/South/West,44.8,62
+"Woods, Calhoun and Schmidt",494501.05,223945.0,60,Central/East/North/South/West,45.29,63
+Wagner-King,493397.69,236778.52,63,Central/East/North/South/West,47.99,64
+Williams and Sons,490878.39999999997,245804.74000000002,53,Central/East/North/South/West,50.07,65
+Anderson-Bailey,490169.89,224062.27,51,Central/East/North/South/West,45.71,66
+"Simmons, Meadows and Griffin",488684.60000000003,225036.69,50,Central/East/North/South/West,46.05,67
+Nolan-Flynn,487476.6,236895.5,56,Central/East/North/South/West,48.6,68
+"Tran, Jordan and Williams",485073.36,220280.69,58,Central/East/North/South/West,45.41,69
+Meadows PLC,484225.88,225849.08,62,Central/East/North/South/West,46.64,70
+Morales-Jones,482287.4,237433.77,48,Central/East/North/South/West,49.23,71
+"Edwards, Baker and Anderson",481674.85,224418.39,50,Central/East/North/South/West,46.59,72
+"Baker, Mason and White",481158.52,230609.66,55,Central/East/North/South/West,47.93,73
+Russell Group,480876.26,229756.1,48,Central/East/North/South/West,47.78,74
+Henderson-Bernard,479853.42,236022.1,60,Central/East/North/South/West,49.19,75
+Jones-Young,479137.22,222949.25,47,Central/East/North/South/West,46.53,76
+Brown-Wall,478996.75,228605.88,64,Central/East/North/South/West,47.73,77
+Perez Inc,477741.12,222638.21000000002,54,Central/East/North/South/West,46.6,78
+"Hensley, Powell and David",475679.73,227802.03,48,Central/East/North/South/West,47.89,79
+Reid-Poole,474848.28,221735.83,50,Central/East/North/South/West,46.7,80
+Rodriguez-Graham,473406.53,218961.47,54,Central/East/North/South/West,46.25,81
+Blake and Sons,469016.52999999997,217646.37,46,Central/East/North/South/West,46.4,82
+"Patterson, Smith and Jones",468700.06,224140.61,54,Central/East/North/South/West,47.82,83
+May-Ross,466889.94,211251.56,55,Central/East/North/South/West,45.25,84
+"Joyce, Wilson and Lam",466208.74,224718.37,56,Central/East/North/South/West,48.2,85
+"Flowers, Martin and Kelly",465469.43,224520.93,56,Central/East/North/South/West,48.24,86
+Dudley Group,462988.89,217351.51,55,Central/East/North/South/West,46.95,87
+Salazar-Ball,461984.41000000003,220811.14,51,Central/East/North/South/West,47.8,88
+"Lee, Horton and Snyder",460358.70999999996,216196.81,40,Central/East/North/South/West,46.96,89
+Reed Group,460068.33,214704.24,49,Central/East/North/South/West,46.67,90
+Johnston-Odonnell,460055.13,211573.57,49,Central/East/North/South/West,45.99,91
+"Guzman, Hoffman and Baldwin",458300.21,226232.81,49,Central/East/North/South/West,49.36,92
+Robinson-Brock,457437.02,212397.98,49,Central/East/North/South/West,46.43,93
+"Brown, Valdez and Lucas",456498.37,219414.77,51,Central/East/North/South/West,48.06,94
+Mitchell-Jordan,455295.0,215245.42,48,Central/East/North/South/West,47.28,95
+Medina-Navarro,455170.08,215636.16,67,Central/East/North/South/West,47.37,96
+"Jackson, Miller and Robertson",451667.16000000003,222136.34,47,Central/East/North/South/West,49.18,97
+Harris-Walters,447899.05,205219.26,46,Central/East/North/South/West,45.82,98
+Campbell-Clark,444269.07,204275.29,54,Central/East/North/South/West,45.98,99
+Harrell LLC,443577.1,212383.74,58,Central/East/North/South/West,47.88,100
+Vargas Ltd,443356.96,205697.3,54,Central/East/North/South/West,46.4,101
+Hickman Ltd,440792.22,213599.38999999998,50,Central/East/North/South/West,48.46,102
+Ramirez-Bean,439477.83,197099.82,53,Central/East/North/South/West,44.85,103
+"Harris, Collins and Carney",439076.3,211043.46,60,Central/East/North/South/West,48.07,104
+"Reid, Ferguson and Sanchez",439004.52,208154.55,53,Central/East/North/South/West,47.42,105
+Wells Inc,438329.82,209963.47,51,Central/East/North/South/West,47.9,106
+Green-Wright,435434.41,190148.82,46,Central/East/North/South/West,43.67,107
+"Garcia, Humphrey and Baker",434098.29,209106.33000000002,51,Central/East/North/South/West,48.17,108
+"Mckee, Gardner and Davenport",433414.43,214014.28,50,Central/East/North/South/West,49.38,109
+"Johnston, Sanchez and Kennedy",430104.69,203210.88,61,Central/East/North/South/West,47.25,110
+Walker LLC,428419.53,196355.91,50,Central/East/North/South/West,45.83,111
+Riggs PLC,427865.99,206858.9,45,Central/East/North/South/West,48.35,112
+Cortez LLC,427460.7,200622.95,47,Central/East/North/South/West,46.93,113
+"Shields, Cochran and Adams",424445.53,199955.79,55,Central/East/North/South/West,47.11,114
+"Rodriguez, Figueroa and Sanchez",422698.1,192607.21,51,Central/East/North/South/West,45.57,115
+Gray Group,422547.25,202600.85,49,Central/East/North/South/West,47.95,116
+Patton-Jenkins,422192.08,191689.23,50,Central/East/North/South/West,45.4,117
+"Snyder, Campos and Callahan",419360.21,208860.1,51,Central/East/North/South/West,49.8,118
+Rodriguez LLC,418157.21,203302.74,54,Central/East/North/South/West,48.62,119
+"Arroyo, Miller and Tucker",418125.48,200899.65,47,Central/East/North/South/West,48.05,120
+Suarez LLC,418022.45,192905.36000000002,44,Central/East/North/South/West,46.15,121
+"Hurst, Freeman and Nelson",417141.39,211752.21,45,Central/East/North/South/West,50.76,122
+Gonzalez Group,415818.76,190521.80000000002,54,Central/East/North/South/West,45.82,123
+Garcia LLC,414299.7,190191.52,42,Central/East/North/South/West,45.91,124
+"Carroll, Sullivan and Bass",413608.85000000003,201164.32,46,Central/East/North/South/West,48.64,125
+Diaz Inc,412960.67,196023.57,50,Central/East/North/South/West,47.47,126
+Stafford Inc,412363.77999999997,207358.51,47,Central/East/North/South/West,50.29,127
+"Mcclain, Miller and Henderson",411826.19,196491.99,57,Central/East/North/South/West,47.71,128
+Figueroa PLC,410038.76,193475.53,48,Central/East/North/South/West,47.18,129
+Donovan-Harris,409633.16,195564.99,46,Central/East/North/South/West,47.74,130
+House-Glover,409279.88,195836.76,58,Central/East/North/South/West,47.85,131
+"Mccall, Hanson and Alvarado",408435.79,192010.68,54,Central/East/North/South/West,47.01,132
+"Adams, Zuniga and Wong",407471.08,190360.3,50,Central/East/North/South/West,46.72,133
+"Burke, Martinez and Riggs",406667.5,202785.56,45,Central/East/North/South/West,49.87,134
+"Wood, Hunter and Peterson",402110.4,184798.73,56,Central/East/North/South/West,45.96,135
+"Holmes, Williams and Wright",401744.68,182395.73,49,Central/East/North/South/West,45.4,136
+Hernandez Inc,401323.37,186099.96,55,Central/East/North/South/West,46.37,137
+"Smith, Montoya and Evans",400615.16,189143.82,47,Central/East/North/South/West,47.21,138
+Allen-Allen,397339.69,192577.1,42,Central/East/North/South/West,48.47,139
+Baxter Inc,397227.38,193569.59,55,Central/East/North/South/West,48.73,140
+Stein-Silva,394866.58999999997,178365.04,53,Central/East/North/South/West,45.17,141
+Williams PLC,393334.38,174814.1,41,Central/East/North/South/West,44.44,142
+Gibson Ltd,393038.61,181669.04,53,Central/East/North/South/West,46.22,143
+"Ferrell, Rice and Maddox",393023.97,185445.31,44,Central/East/North/South/West,47.18,144
+"Nelson, Morton and Medina",392539.34,188557.07,50,Central/East/North/South/West,48.04,145
+"Romero, Gonzalez and Brooks",389119.54,180891.15,47,Central/East/North/South/West,46.49,146
+Abbott-Munoz,386995.23,167012.64,51,Central/East/North/South/West,43.16,147
+Moore-Bass,386470.26,185600.1,53,Central/East/North/South/West,48.02,148
+"Stanley, Tucker and Lee",384261.14,181394.19,52,Central/East/North/South/West,47.21,149
+"Adams, Christian and Rivas",384035.29,174039.88999999998,50,Central/East/North/South/West,45.32,150
+"Smith, Gilmore and Johnston",383500.96,187597.45,45,Central/East/North/South/West,48.92,151
+Short-Garcia,374231.91000000003,179820.36000000002,45,Central/East/North/South/West,48.05,152
+"Lawson, Morris and Ramos",371689.4,168371.78,47,Central/East/North/South/West,45.3,153
+Newton and Sons,370264.63,168340.67,40,Central/East/North/South/West,45.46,154
+Walsh LLC,370147.81,170454.93,48,Central/East/North/South/West,46.05,155
+Davis Group,370037.1,171007.88999999998,40,Central/East/North/South/West,46.21,156
+Wright and Sons,364731.68,167827.05,47,Central/East/North/South/West,46.01,157
+Ryan PLC,364232.14,179357.54,41,Central/East/North/South/West,49.24,158
+"Henderson, Ramirez and Lewis",363780.6,177832.96,50,Central/East/North/South/West,48.88,159
+George Group,363128.47000000003,158573.86000000002,48,Central/East/North/South/West,43.67,160
+Chandler-Edwards,361936.29,170916.7,51,Central/East/North/South/West,47.22,161
+"Walter, Edwards and Rios",360496.23,157412.23,48,Central/East/North/South/West,43.67,162
+"Schmidt, Hansen and Stewart",360367.2,157966.94,54,Central/East/North/South/West,43.83,163
+"Lewis, Kennedy and Santana",359712.31,172368.39,48,Central/East/North/South/West,47.92,164
+Jackson-Lawson,358706.06,164653.87,45,Central/East/North/South/West,45.9,165
+"Yates, Ramsey and Pittman",356601.9,178130.61,49,Central/East/North/South/West,49.95,166
+Howell and Sons,354991.54,171445.94,49,Central/East/North/South/West,48.3,167
+"Mcclure, Ward and Lee",353094.43,157302.78,57,Central/East/North/South/West,44.55,168
+Hooper PLC,344709.7,160238.75,51,Central/East/North/South/West,46.49,169
+Torres-Pope,342970.09,168021.34,47,Central/East/North/South/West,48.99,170
+Morton-Chase,341820.55,162494.7,53,Central/East/North/South/West,47.54,171
+Smith-Frost,334217.36,161320.72,43,Central/East/North/South/West,48.27,172
+Lee-Davis,327137.06,163521.81,39,Central/East/North/South/West,49.99,173
+King-Miller,325985.62,147860.43,51,Central/East/North/South/West,45.36,174
+Williams-Cook,324228.85,156467.37,50,Central/East/North/South/West,48.26,175
+Wilkerson-Day,322451.39,151218.51,47,Central/East/North/South/West,46.9,176
+James Group,322436.07,149881.53,42,Central/East/North/South/West,46.48,177
+Curry Inc,320440.94,151986.12,43,Central/East/North/South/West,47.43,178
+Powell LLC,316208.82,148465.51,43,Central/East/North/South/West,46.95,179
+"Gardner, Robinson and Lawrence",316197.47000000003,155947.55000000002,52,Central/East/North/South/West,49.32,180
+Novak and Sons,313467.42,155107.96,46,Central/East/North/South/West,49.48,181
+"Washington, Ryan and Cummings",313166.73,138445.74,51,Central/East/North/South/West,44.21,182
+Blair PLC,310254.66,144652.68,49,Central/East/North/South/West,46.62,183
+"Hernandez, Thompson and Boyd",309226.0,152338.22,38,Central/East/North/South/West,49.26,184
+Sanders-Espinoza,307719.53,143502.88999999998,44,Central/East/North/South/West,46.63,185
+Sandoval-Cunningham,305474.23,139929.87,49,Central/East/North/South/West,45.81,186
+"Turner, Riggs and Roman",298433.35,139910.11,45,Central/East/North/South/West,46.88,187
+Walker Ltd,293036.39,137057.1,47,Central/East/North/South/West,46.77,188
+"Evans, Stewart and Walton",290301.08,132242.63,49,Central/East/North/South/West,45.55,189
+"Rivera, Johnson and Wiley",280882.26,135344.25,37,Central/East/North/South/West,48.19,190
+Arnold Ltd,280819.52,127829.71,43,Central/East/North/South/West,45.52,191
+Chapman and Sons,278435.58,122568.98,42,Central/East/North/South/West,44.02,192
+Nolan and Sons,274127.55,130201.98999999999,39,Central/East/North/South/West,47.5,193
+Rodriguez-Johnson,273553.6,127872.22,48,Central/East/North/South/West,46.74,194
+"Alvarado, Miller and Patterson",264032.41,120969.66,33,Central/East/North/South/West,45.82,195
+Russell-Daniels,259206.15,120980.48999999999,38,Central/East/North/South/West,46.67,196
+"Bentley, Byrd and Orr",255741.53,117966.2,39,Central/East/North/South/West,46.13,197
+"Gould, Marshall and Scott",235647.79,115997.85,45,Central/East/North/South/West,49.23,198
+"Brooks, Lam and Hayes",234638.44,108691.8,44,Central/East/North/South/West,46.32,199
+Spence PLC,211801.33,102413.3,44,Central/East/North/South/West,48.35,200
