@@ -1,0 +1,23 @@
+# Auto-detect text files and ensure LF on all platforms
+* text=auto eol=lf
+
+# Explicitly declare text files
+*.py     text eol=lf
+*.md     text eol=lf
+*.txt    text eol=lf
+*.csv    text eol=lf
+*.json   text eol=lf
+*.html   text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+
+# Binary files — do not touch line endings
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+*.zip    binary
+*.pkl    binary
+*.parquet binary

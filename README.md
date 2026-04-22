@@ -1,143 +1,201 @@
 # 📊 Business Sales Intelligence Dashboard
 
-> **Tools:** Python · Pandas · Matplotlib · Seaborn · Power BI  
-> **Dataset:** 10,000+ row synthetic sales dataset with intentional data quality issues
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-2.2%2B-150458?logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-3.8%2B-blue)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+
+> End-to-end data pipeline that transforms a **10,000+ row messy sales dataset** into a decision-ready intelligence report — cleaning, feature engineering, analysis, and visualization, all from one command.
 
 ---
 
-## 🎯 Project Overview
+## 📸 Sample Output
 
-Raw sales data had inconsistent formats, duplicates, and missing revenue fields with no clear way to identify which products were actually profitable.
+| Monthly Revenue Trend | SKU Rationalization Impact |
+|---|---|
+| ![Revenue](reports/figures/01_monthly_revenue_trend.png) | ![SKU Waterfall](reports/figures/07_sku_removal_waterfall.png) |
 
-### What This Project Does
+| Top 10 Products | Region × Category Heatmap |
+|---|---|
+| ![Products](reports/figures/03_top10_products_revenue.png) | ![Heatmap](reports/figures/08_region_heatmap.png) |
 
-| Stage | Description |
-|-------|-------------|
-| **Data Generation** | 10,500+ row synthetic dataset with baked-in quality issues |
-| **Data Cleaning** | Deduplication, date normalization, null imputation, invalid-row removal |
-| **Feature Engineering** | Monthly revenue, profit margin %, revenue bands |
-| **Analysis** | Monthly trends, top-10 products, top-10 customers, regional breakdowns |
-| **Key Insight** | Identified 2 underperforming SKUs → removing them lifts overall profit margin by **~12 pp** |
-| **Reporting** | Self-contained HTML executive report + 8 publication-ready charts |
+---
+
+## 🎯 Problem Statement
+
+Raw sales data had:
+- **Inconsistent date formats** (4 different formats in one column)
+- **Mixed category casing** (`Electronics` / `ELECTRONICS` / `electronics`)
+- **~5% missing revenue** and **~4% missing cost** values
+- **~3% duplicate rows**
+- **~1% invalid (negative) quantities**
+- **No profit or margin fields** — impossible to identify profitable products
+
+**Goal:** Clean the data, engineer useful features, identify underperforming SKUs, and surface actionable business insights.
+
+---
+
+## 💡 Key Insight
+
+> Removing the **bottom 2 underperforming SKUs** (SKU-098, SKU-099) — which carry a **94–99% cost ratio** while being sold at a discount — improves overall portfolio profit margin by a significant number of percentage points.
+
+These SKUs have near-zero margins but generate high transaction volume, silently dragging down total profitability. The recommendation: **discontinue or renegotiate supplier contracts before next quarter.**
+
+---
+
+## 🚀 Quick Start
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/YOUR_USERNAME/business-sales-intelligence-dashboard.git
+cd business-sales-intelligence-dashboard
+```
+
+### 2. Create a Virtual Environment (Recommended)
+```bash
+# Windows
+python -m venv .venv
+.venv\Scripts\activate
+
+# Mac / Linux
+python -m venv .venv
+source .venv/bin/activate
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Full Pipeline
+```bash
+python run_pipeline.py
+```
+
+That's it. One command generates everything:
+- `data/raw/raw_sales_data.csv` — 10,500+ row messy dataset
+- `data/processed/*.csv` — 5 clean analysis-ready CSVs
+- `reports/figures/` — 8 publication-ready chart PNGs
+- `reports/sales_intelligence_report.html` — Self-contained HTML executive report
 
 ---
 
 ## 📁 Project Structure
 
 ```
-Business Sales Intelligence Dashboard/
+business-sales-intelligence-dashboard/
+│
 ├── data/
 │   ├── raw/
-│   │   └── generate_raw_data.py    # Generates raw_sales_data.csv
+│   │   ├── generate_raw_data.py    # Generates intentionally messy dataset
+│   │   └── .gitkeep
 │   └── processed/
-│       ├── clean_sales_data.csv
-│       ├── monthly_summary.csv
-│       ├── product_summary.csv
-│       ├── customer_summary.csv
-│       └── sku_removal_impact.csv
+│       ├── clean_sales_data.csv    # 10,464 clean transactions
+│       ├── monthly_summary.csv     # 12-month aggregated KPIs
+│       ├── product_summary.csv     # Per-SKU performance
+│       ├── customer_summary.csv    # Per-customer rankings
+│       └── sku_removal_impact.csv  # What-if analysis output
+│
 ├── src/
-│   ├── clean_and_engineer.py       # Stage 1 & 2: Clean + Feature Eng.
-│   ├── eda_and_charts.py           # Stage 3: 8 publication-ready charts
+│   ├── clean_and_engineer.py       # Stage 1+2: Clean + Feature Engineering
+│   ├── eda_and_charts.py           # Stage 3: 8 dark-theme charts
 │   └── generate_report.py          # Stage 4: HTML executive report
+│
 ├── notebooks/
-│   └── sales_analysis.ipynb        # Full walkthrough notebook
+│   └── sales_analysis.ipynb        # Full interactive walkthrough
+│
 ├── reports/
-│   ├── figures/                    # 8 chart PNGs
-│   └── sales_intelligence_report.html
+│   ├── figures/                    # 8 chart PNGs (tracked in git)
+│   └── .gitkeep
+│
 ├── powerbi/
-│   └── POWERBI_SETUP.md            # Step-by-step Power BI guide
-├── run_pipeline.py                 # 🚀 Master runner
-├── requirements.txt
+│   └── POWERBI_SETUP.md           # Step-by-step Power BI guide + DAX
+│
+├── run_pipeline.py                 # Master runner — runs all 4 stages
+├── requirements.txt                # Python dependencies
+├── setup.cfg                       # Package metadata
 ├── .gitignore
+├── .gitattributes                  # Cross-platform line endings
+├── CONTRIBUTING.md
+├── LICENSE
 └── README.md
 ```
 
 ---
 
-## 🚀 Quick Start
+## 🔍 What the Pipeline Does
 
-```bash
-# 1. Clone the repo
-git clone <your-repo-url>
-cd "Business Sales Intelligence Dashboard"
-
-# 2. Install dependencies
-pip install -r requirements.txt
-
-# 3. Run the full pipeline
-python run_pipeline.py
-```
-
-The pipeline will:
-1. Generate `data/raw/raw_sales_data.csv` (10,500+ messy rows)
-2. Clean and engineer features → `data/processed/`
-3. Generate 8 charts → `reports/figures/`
-4. Write HTML report → `reports/sales_intelligence_report.html`
-
----
-
-## 🔍 Data Quality Issues Handled
+### Stage 1 — Data Cleaning
 
 | Issue | Count | Treatment |
 |-------|-------|-----------|
-| Exact duplicate rows | ~315 | Dropped |
-| Inconsistent date formats | 4 formats | Parsed & normalized to `YYYY-MM-DD` |
-| Mixed category casing | ~30% rows | `.str.title()` normalization |
-| Negative quantities | ~105 rows | Dropped (invalid returns) |
-| Missing revenue | ~525 cells | Imputed: `unit_price × quantity` |
-| Missing cost | ~420 cells | Imputed: category median cost-% |
-| Null customer names | ~210 cells | Filled with `"Unknown Customer"` |
+| Exact duplicate rows | ~315 | `drop_duplicates()` |
+| 4 different date formats | Mixed | Multi-format `strptime` parser → `YYYY-MM-DD` |
+| Category casing variants | ~30% rows | `.str.title()` normalization |
+| Negative quantities | ~108 rows | Filter out (invalid returns) |
+| Missing revenue | ~536 cells | Imputed: `unit_price × quantity` |
+| Missing cost | ~429 cells | Imputed: category-level median cost ratio |
+| Null customer names | ~212 cells | Filled: `"Unknown Customer"` |
 
----
+### Stage 2 — Feature Engineering
 
-## 💡 Key Insight
+| New Feature | Formula | Purpose |
+|-------------|---------|---------|
+| `month_year` | `sale_date.dt.to_period("M")` | Time-series grouping |
+| `month_num` | `sale_date.dt.month` | Sort order |
+| `profit` | `revenue - cost` | Core profitability metric |
+| `profit_margin_pct` | `profit / revenue × 100` | Comparable across SKUs |
+| `revenue_band` | Quartile-based cut | Segmentation (Low/Med/High) |
 
-> **Removing SKU-098 and SKU-099 improves overall profit margin by ~12 percentage points.**
+### Stage 3 — Charts Generated
 
-These two SKUs have cost ratios between **88–97%** (near-zero or negative margin) while the healthy portfolio runs at **35–50%** cost ratio. They represent only ~3.7% of revenue but disproportionately drag down portfolio profitability.
+| # | Chart | Insight |
+|---|-------|---------|
+| 01 | Monthly Revenue Trend | Identifies peak months |
+| 02 | Monthly Profit Margin % | Shows margin volatility |
+| 03 | Top-10 Products by Revenue | Best sellers |
+| 04 | Top-10 Products by Margin % | Most efficient SKUs |
+| 05 | Top-10 Customers by Revenue | Key accounts |
+| 06 | Revenue by Category (Pie) | Portfolio composition |
+| 07 | SKU Removal Waterfall | **The key insight visual** |
+| 08 | Region × Category Heatmap | Geographic opportunities |
 
-**Recommendation:** Discontinue both SKUs or renegotiate supplier costs before the next quarter.
+### Stage 4 — Executive Report
+A single self-contained `HTML` file with embedded charts, KPI cards, ranked tables, and the SKU rationalization recommendation. No dependencies — just open in any browser.
 
 ---
 
 ## 📊 Power BI Dashboard
 
-See [`powerbi/POWERBI_SETUP.md`](powerbi/POWERBI_SETUP.md) for step-by-step instructions to build the Power BI dashboard using the processed CSVs.
-
-**Dashboard pages:**
-1. **Executive Summary** — Revenue, Profit, Margin KPI cards + monthly trend
-2. **Product Performance** — Top-10 by revenue & margin, SKU deep-dive
-3. **Customer Rankings** — Top-10 customers, regional breakdown
-4. **SKU Rationalization** — What-if analysis for removing bottom SKUs
-
----
-
-## 📈 Charts Generated
-
-| # | Chart |
-|---|-------|
-| 01 | Monthly Revenue Trend (2023) |
-| 02 | Monthly Profit Margin % |
-| 03 | Top-10 Products by Revenue |
-| 04 | Top-10 Products by Profit Margin |
-| 05 | Top-10 Customers by Revenue |
-| 06 | Revenue by Category (Pie) |
-| 07 | SKU Removal Waterfall (Key Insight) |
-| 08 | Revenue Heatmap: Region × Category |
+See [`powerbi/POWERBI_SETUP.md`](powerbi/POWERBI_SETUP.md) for a complete guide to build the interactive dashboard, including:
+- Data import steps
+- Data model relationships
+- Ready-to-copy DAX measures
+- Visual layout for each of the 4 dashboard pages
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Python 3.12** — core language
-- **Pandas** — data wrangling & aggregation  
-- **NumPy** — numerical operations  
-- **Matplotlib + Seaborn** — data visualization  
-- **Faker** — realistic synthetic data generation  
-- **Power BI Desktop** — interactive dashboard
+| Tool | Version | Purpose |
+|------|---------|---------|
+| Python | 3.10+ | Core language |
+| Pandas | 2.2+ | Data manipulation |
+| NumPy | 1.26+ | Numerical operations |
+| Matplotlib | 3.8+ | Chart generation |
+| Seaborn | 0.13+ | Heatmaps & statistical charts |
+| Faker | 24+ | Synthetic data generation |
+| Power BI Desktop | Latest | Interactive dashboard |
 
 ---
 
 ## 📄 License
 
-MIT — free to use for portfolio and educational purposes.
+[MIT](LICENSE) — free to use for portfolio and educational purposes.
+
+---
+
+## 🤝 Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to report issues or submit changes.

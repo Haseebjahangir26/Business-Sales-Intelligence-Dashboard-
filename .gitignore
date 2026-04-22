@@ -1,40 +1,42 @@
-# Business Sales Intelligence Dashboard
+# ── Generated data files (never commit raw/large CSVs) ───────────────────────
+raw_sales_data.csv
+data/raw/raw_sales_data.csv
+
+# ── Generated reports (large HTML, regenerate with pipeline) ─────────────────
+reports/sales_intelligence_report.html
 
 # ── Python cache ──────────────────────────────────────────────────────────────
 __pycache__/
 *.py[cod]
 *$py.class
 *.pyc
+*.pyo
 
 # ── Virtual environments ──────────────────────────────────────────────────────
 .venv/
 venv/
 env/
 .env
+ENV/
 
 # ── Jupyter ───────────────────────────────────────────────────────────────────
 .ipynb_checkpoints/
-*.ipynb_checkpoints
-
-# ── Generated data (keep structure, ignore large raw CSV) ─────────────────────
-data/raw/raw_sales_data.csv
-# data/processed/ is tracked — small CSVs are fine
 
 # ── OS artefacts ──────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
 desktop.ini
+ehthumbs.db
 
 # ── IDEs ──────────────────────────────────────────────────────────────────────
 .vscode/
 .idea/
 *.suo
 *.ntvs*
-*.njsproj
-*.sln
 
 # ── Misc ──────────────────────────────────────────────────────────────────────
 *.log
 *.tmp
 dist/
 build/
+*.egg-info/
